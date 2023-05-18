@@ -158,3 +158,11 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# binaries
+
+*.docx
+*.pdf
+*.jpg
+*.png
+PRACTICE-REPOS/generador_reportes_v1/chromedriver_linux64/

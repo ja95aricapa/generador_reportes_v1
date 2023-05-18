@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+.image-caption {
+  font-size: x-small;
+  font-style: italic;
+}
+</style>
+</head>
+<body>
+
+<h2><span style="font-size:large"><strong>Portfolio Overview</strong></span></h2>
+
+<p>Este es un ejemplo de documento que contiene varios marcadores de posici&oacute;n para la imagen.</p>
+
+<div class="row">
+  <div class="column">
+    <img src="{{imagen1}}">
+    <p><span class="image-caption">Fig 1. Key Metrics</span></p>
+  </div>
+  <div class="column">
+    <img src="{{imagen2}}">
+    <p><span class="image-caption">Fig 2. Sector Composition</span></p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="{{imagen3}}">
+    <p><span style="color:#000000" class="image-caption">Fig 3. Segment Matrix</span></p>
+  </div>
+  <div class="column">
+    <img src="{{imagen4}}">
+    <p><span style="color:#000000" class="image-caption">Fig 4. Factors</span></p>
+  </div>
+</div>
+
+</body>
+</html>

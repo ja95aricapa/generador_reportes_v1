@@ -1,0 +1,6 @@
+beautifulsoup4==4.9.3
+requests==2.26.0
+python-dotenv==0.17.1
+python-docx==0.8.11
+jinja2==3.0.1
+

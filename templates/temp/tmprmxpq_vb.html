@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My PDF</title>
+    <style type="text/css">
+        .page {
+            page-break-after: always;
+        }
+
+        img {
+            max-height: 200px;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .column {
+            flex: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+
+        <div class="nav">
+            <img src="/home/jaime/Desktop/PRACTICE-REPOS/test_embajada/images/Logo-Santander.png" alt="Logo">
+        </div>
+
+        <div class="center-div">
+            <h1>Titulo</h1>
+            <img src="/home/jaime/Desktop/PRACTICE-REPOS/test_embajada/images/foto-banco.jpg" alt="Background">
+        </div>
+
+    </div>
+
+    <div class="page">
+        <h2><span style="font-size:large"><strong>Portfolio Overview</strong></span></h2>
+        <p>Este es un ejemplo de documento que contiene varios marcadores de posici&oacute;n para la imagen.</p>
+
+        <div class="row">
+            <div class="column">
+                <img src="/home/jaime/Desktop/PRACTICE-REPOS/test_embajada/images/key_metrics.png">
+                <p><span class="image-caption">Fig 1. Key Metrics</span></p>
+            </div>
+            <div class="column">
+                <img src="/home/jaime/Desktop/PRACTICE-REPOS/test_embajada/images/sector_composition.png">
+                <p><span class="image-caption">Fig 2. Sector Composition</span></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img src="/home/jaime/Desktop/PRACTICE-REPOS/test_embajada/images/segment_matrix.png">
+                <p><span class="image-caption">Fig 3. Segment Matrix</span></p>
+            </div>
+            <div class="column">
+                <img src="/home/jaime/Desktop/PRACTICE-REPOS/test_embajada/images/factors_bars.png">
+                <p><span class="image-caption">Fig 4. Factors</span></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="page">
+        <h2><span style="font-size:large"><em><strong>Risk</strong></em></span></h2>
+        <p>Puedes proseguir leyendo este informe con texto dummy</p>
+
+        <div class="row">
+            <div class="column">
+                <img src="/home/jaime/Desktop/PRACTICE-REPOS/test_embajada/images/positions.png">
+                <p><span class="image-caption">Fig 5 Position</span></p>
+            </div>
+            <div class="column">
+                <img src="/home/jaime/Desktop/PRACTICE-REPOS/test_embajada/images/tracking_error_bars.png">
+                <p><span class="image-caption">Fig 6 Tracking Error</span></p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
